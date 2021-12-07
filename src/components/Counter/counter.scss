@@ -1,0 +1,49 @@
+
+
+
+body{
+    color: white;
+}
+// .container{
+//     width: 1000px;
+//     margin: 0 auto;
+//     bottom: 40px;
+// }
+
+.block{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(114, 51, 14);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.counter{
+    width: 200px;
+    height: 200px; 
+    margin-bottom: 28px;
+    text-align: center;
+    font-size: 150px;
+    font-weight: 700;
+}
+
+button{
+    width: 170px;
+    height: 50px;
+    margin-bottom: 23px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(36, 32, 95);
+    border-radius: 10px;
+
+}
+.addCounter{
+    width: 155px;
+}

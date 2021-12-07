@@ -1,4 +1,5 @@
 import UserCard from "./components/UserCard/UserCard";
+import Counter from "./components/Counter/Counter";
 
 import "./app.scss";
 
@@ -15,9 +16,18 @@ function App() {
           return <UserCard userImg={user.userImg} userName={user.name} userAge={user.age} userLocation={user.location} userFollowers={user.descrFollowers} userLikes={user.descrLikes} userPhotosCount={user.PhotosCount} userPhotos={user.descrPhotos} userFollowersCount={user.FollowersCount} userLikesCount={user.LikesCount} key={idx + user.age} />
         })
       }
+
+      {
+        < Counter />
+      }
     </div>
+
+
   );
 }
+
+
+
 
 export default App;
 
